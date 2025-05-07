@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -22,17 +24,31 @@ body {
 }
 
 .accounts {
+  border-radius: 5px;
   width: 30%;
-  border: 2px solid;
+  border: 2px rgba(128, 128, 128, 0.61);
+  box-shadow: 0 0 35px gray;
+  align-items: center;
 }
 
 .account {
+  flex-direction: column;
+  display: flex;
   width: 50%;
+  justify-content: space-between;
+  padding: 2%;
+  align-items: center;
+  margin: 3%;
 }
 
-.img {
-  width: 70px;
-  height: 30px;
+img {
+  height: 150px;
+  width: 170px;
+  border-radius: 100%;
+}
+
+img:hover {
+  box-shadow: 0 0 20px gray;
 }
 
 form {
@@ -40,4 +56,15 @@ form {
   flex-direction: column;
   width: 30%;
   border: 2px solid;
+}
+
+h1 {
+  font-family: "Aguafina Script";
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
