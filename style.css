@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aguafina+Script&family=Archivo:ital,wght@0,100..900;1,100..900&family=Bungee+Tint&family=Codystar:wght@300;400&family=Honk:MORF,SHLN@23,7.9&family=Kalnia+Glaze:wght@100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=League+Script&family=Rubik+Puddles&family=WindSong:wght@400;500&display=swap");
 
 * {
   margin: 0;
@@ -7,6 +8,9 @@
 }
 
 body {
+  background-image: url(https://media.istockphoto.com/id/1403057774/vector/gradient-background-orange-pink-and-purple-colors-rainbow-colors-magenta-yellow-and-red.jpg?s=612x612&w=0&k=20&c=vjBJxXPU7QXTUgGcMYVq-4xp7W7ns4wkjf42pDVK2K0=);
+  background-size: cover;
+  background-repeat: no-repeat;
   min-width: 375px;
   width: 100%;
   min-height: 100vh;
@@ -16,6 +20,9 @@ body {
 }
 
 .page {
+  margin: -14%;
+  flex-direction: column;
+  display: flex;
   width: 100%;
   display: flex;
   align-items: center;
@@ -24,6 +31,8 @@ body {
 }
 
 .accounts {
+  padding: 10%;
+  background-color: #211e1ea1;
   border-radius: 5px;
   width: 30%;
   border: 2px rgba(128, 128, 128, 0.61);
@@ -63,8 +72,35 @@ h1 {
   font-weight: 400;
   font-style: normal;
   text-align: center;
+  color: white;
 }
 
 h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
   text-align: center;
+  margin: 11%;
+  color: white;
+}
+
+h3 {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin: 18%;
+}
+
+button {
+  background-color: rgb(53, 138, 235);
+  color: white;
+  border-radius: 4px;
+}
+
+a {
+  color: rgb(0, 110, 255);
+}
+
+input {
+  color: white;
+  background-color: rgba(240, 248, 255, 0.062);
 }
