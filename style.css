@@ -16,7 +16,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
 }
 
 .page {
@@ -31,7 +31,7 @@ body {
 }
 
 .accounts {
-  padding: 10%;
+  padding: 10% 5%;
   background-color: #211e1ea1;
   border-radius: 5px;
   width: 30%;
@@ -43,7 +43,7 @@ body {
 .account {
   flex-direction: column;
   display: flex;
-  width: 50%;
+  width: 100%;
   justify-content: space-between;
   padding: 2%;
   align-items: center;
@@ -51,6 +51,8 @@ body {
 }
 
 img {
+  object-fit: cover;
+  object-position: 50% 15%;
   height: 150px;
   width: 170px;
   border-radius: 100%;
@@ -91,6 +93,7 @@ h3 {
 }
 
 button {
+  padding: 2%;
   background-color: rgb(53, 138, 235);
   color: white;
   border-radius: 4px;
@@ -101,6 +104,13 @@ a {
 }
 
 input {
+  text-decoration: none;
+  margin: 1%;
+  padding: 2%;
   color: white;
   background-color: rgba(240, 248, 255, 0.062);
+}
+
+i {
+  color: white;
 }
