@@ -31,9 +31,9 @@ body {
 }
 
 .accounts {
+  border-radius: 15px;
   padding: 10% 5%;
   background-color: #211e1ea1;
-  border-radius: 5px;
   width: 30%;
   border: 2px rgba(128, 128, 128, 0.61);
   box-shadow: 0 0 35px rgb(241, 24, 107);
