@@ -36,7 +36,7 @@ body {
   border-radius: 5px;
   width: 30%;
   border: 2px rgba(128, 128, 128, 0.61);
-  box-shadow: 0 0 35px gray;
+  box-shadow: 0 0 35px rgb(241, 24, 107);
   align-items: center;
 }
 
@@ -99,8 +99,19 @@ button {
   border-radius: 4px;
 }
 
+button:hover {
+  background-color: rgba(53, 138, 235, 0.432);
+}
+
 a {
-  color: rgb(0, 110, 255);
+  color: white;
+  text-decoration: none;
+  transition: 0.5s linear;
+}
+
+a:hover {
+  color: rgba(114, 182, 214, 0.589);
+  text-decoration: underline;
 }
 
 input {
